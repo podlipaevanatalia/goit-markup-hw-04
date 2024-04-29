@@ -419,8 +419,8 @@ button:focus {
 }
 .footer-icon-list {
   display: flex;
-  justify-content: center;
-  column-gap: 16px;
+  align-items: baseline;
+  gap: 16px;
   
 }
 .footer-link {
@@ -436,4 +436,7 @@ button:focus {
 .footer-link:hover,
 .footer-link:focus {
   background-color: #31d0aa;
+}
+.footer-social-icon {
+  fill: #f4f4fd;
 }
