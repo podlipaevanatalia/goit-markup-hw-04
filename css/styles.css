@@ -304,8 +304,6 @@ button:focus {
 
 .social-icon {
   fill: #fff;
-  width: 16px;
-  height: 16px;
 }
 /*==== section 3 portfolio ====*/
 .portfolio-list {
@@ -377,9 +375,9 @@ button:focus {
 }
 .footer-container {
   display: flex;
+ align-items: baseline
   padding-left: 156px;
   padding-right: 1020px;
-  gap: 120px;
 }
 
 .footer-logo {
@@ -393,7 +391,9 @@ button:focus {
   color: #4d5ae5;
   margin-bottom: 16px;
 }
-
+.footer-logo-container {
+  margin-right: 120px;
+}
 .footer-logo-part {
   color: #f4f4fd;
 }
@@ -421,6 +421,7 @@ button:focus {
   display: flex;
   justify-content: center;
   column-gap: 16px;
+  
 }
 .footer-link {
   display: flex;
@@ -430,7 +431,6 @@ button:focus {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
